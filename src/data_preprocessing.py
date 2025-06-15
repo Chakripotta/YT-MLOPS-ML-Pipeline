@@ -4,9 +4,11 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import string
 import nltk
-nltk.download('stopwords',download_dir='./stopwords')
-nltk.data.path.append('./nltk_data')  # Optional: ensure path is used
-nltk.download('punkt',download_dir='./nltk_data',force=True)
+# nltk.download('stopwords',download_dir='./stopwords')
+nltk.download('stopwords')
+# nltk.data.path.append('./nltk_data')  # Optional: ensure path is used
+# nltk.download('punkt',download_dir='./nltk_data',force=True)
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 
